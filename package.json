@@ -1,0 +1,15 @@
+{
+  "name": "testkube-io-top-nav-playwright-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "description": "E2E Playwright tests validating the top navigation of https://testkube.io",
+  "scripts": {
+    "test": "playwright test",
+    "test:ci": "playwright test --reporter=line",
+    "report": "playwright show-report",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.2"
+  }
+}
